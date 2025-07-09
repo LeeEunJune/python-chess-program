@@ -898,4 +898,4 @@ while AI_count <= 1:
         bq(move, x1, y1, xp, yp)
 
 df = pd.DataFrame([[openning1.move, openning2.move, openning3.move, openning4.move, openning5.move, openning6.move, openning7.move, openning8.move, openning9.move, openning10.move],[openning1.place, openning2.place, openning3.place, openning4.place, openning5.place, openning6.place, openning7.place, openning8.place, openning9.place, openning10.place]],index = ["move", "place"],columns = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-df.to_csv("C:/Users/eunju/OneDrive/바탕 화면/school/공통/로봇중점/2024 1학기/dataframe/df1.csv")
+df.to_csv("C:/Users/dataframe/df1.csv")
